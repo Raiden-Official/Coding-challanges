@@ -1,2 +1,29 @@
-# Internship
-Training scripts.
+# Set of coding problems/challanges and solutions
+## 1. Divisible Palindromes : Project Euler
+The numbers 545, 5995 and 15151 are the three smallest palindromes divisible by 109. There are nine palindromes less than 100000 which are divisible by 109.
+
+How many palindromes less than 1032
+are divisible by 10000019 ?
+
+## 2. Chameleon with the color change grid 
+Given a 10x10 2Darray of color changing grid with possible changes in color indicated by 1 and 0 if the change is not possible, determine the minimum number of changes required from a given start color to a given end color.
+
+Rows and Cols of the array represent color the chameleon can switch from and switch to.
+
+For example:
+Given grid:   0 1 2 3 4 5 6 7 8 9
+           0| 0 0 0 0 0 0 0 0 1 0
+           1| 0 0 0 0 0 0 0 0 0 0 
+           2| 0 0 0 0 0 0 0 1 0 0
+           3| 0 0 0 0 0 1 0 1 0 1
+           4| 0 1 0 1 0 1 0 1 0 1
+           5| 0 0 0 0 0 0 0 0 0 0
+           6| 0 1 0 0 0 0 0 0 1 0
+           7| 0 0 0 0 0 0 0 0 0 0
+           8| 0 0 0 1 0 0 1 0 0 0
+           9| 0 1 0 0 1 0 0 0 0 1
+Shows that the chameleon can switch from color 0 to color 8 but not to color 1. 
+Similarly, it can go from 0 to 8 and then to 3 or 6.
+
+input : start, end, grid.
+output : all possible paths and the smallest path length.
