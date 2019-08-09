@@ -12,19 +12,19 @@ Rows and Cols of the array represent color the chameleon can switch from and swi
 
 For example:   
 Given grid:   
-| color | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|-------|---|---|---|---|---|---|---|---|---|---|
-| 0     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 2     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 3     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 4     | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |
-| 5     | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |
-| 6     | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 7     | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 0 |
-| 8     | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 9     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
-Shows that the chameleon can switch from color 0 to color 8 but not to color 1. 
-Similarly, it can go from 0 to 8 and then to 3 or 6.
+| color | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |                    
+|-------|---|---|---|---|---|---|---|---|---|---|                   
+| 0     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |                   
+| 2     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |                    
+| 3     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |                      
+| 4     | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 |                   
+| 5     | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 1 |                    
+| 6     | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 |                   
+| 7     | 1 | 0 | 1 | 0 | 1 | 1 | 1 | 1 | 1 | 0 |                    
+| 8     | 1 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |                      
+| 9     | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |  
+Shows that the chameleon can switch from color 0 to color 8 but not to color 1.  
+Similarly, it can go from 0 to 8 and then to 3 or 6. 
 
 input : start, end, grid.
 output : all possible paths and the smallest path length.
