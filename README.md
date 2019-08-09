@@ -11,17 +11,19 @@ Given a 10x10 2Darray of color changing grid with possible changes in color indi
 Rows and Cols of the array represent color the chameleon can switch from and switch to.
 
 For example:
-Given grid:   0 1 2 3 4 5 6 7 8 9
-           0| 0 0 0 0 0 0 0 0 1 0
-           1| 0 0 0 0 0 0 0 0 0 0 
-           2| 0 0 0 0 0 0 0 1 0 0
-           3| 0 0 0 0 0 1 0 1 0 1
-           4| 0 1 0 1 0 1 0 1 0 1
-           5| 0 0 0 0 0 0 0 0 0 0
-           6| 0 1 0 0 0 0 0 0 1 0
-           7| 0 0 0 0 0 0 0 0 0 0
-           8| 0 0 0 1 0 0 1 0 0 0
-           9| 0 1 0 0 1 0 0 0 0 1
+Given grid:
+Color |0|1|2|3|4|5|6|7|8|9
+---|---|---|---|---|---|---|---|---|---|---
+0| 0 |0 |0 |0 |0 |0 |0 |0 |1 |0
+1| 0 |0 |0 |0 |0 |0 |0 |0 |0 |0 
+2| 0 |0 |0 |0 |0 |0 |1 |0 |0 |0
+3| 0 |0 |0 |0 |0 |1 |0 |1 |0 |1
+4| 0 |1 |0 |1 |0 |1 |0 |1 |0 |1
+5| 0 |0 |0 |0 |0 |0 |0 |0 |0 |0
+6| 0 |1 |0 |0 |0 |0 |0 |0 |1 |0
+7| 0 |0 |0 |0 |0 |0 |0 |0 |0 |0
+8| 0 |0 |0 |1 |0 |0 |1 |0 |0 |0
+9| 0 |1 |0 |0 |1 |0 |0 |0 |0 |1
 Shows that the chameleon can switch from color 0 to color 8 but not to color 1. 
 Similarly, it can go from 0 to 8 and then to 3 or 6.
 
