@@ -27,3 +27,18 @@ Similarly, it can go from 0 to 8 and then to 3 or 6.
 
 input : start, end, grid.
 output : all possible paths and the smallest path length.
+## 3. Search a key in a given sorted (asc order) shifted/rotated array
+Given a sorted array shifted by any number of bits, find the index of a given key in that array.
+
+For example:
+Test cases:
+a = [1,2,3,4,5,6,7,8,9] # key = 9
+b = [6,7,8,9,1,2,3,4,5] # key = 7
+c = [4,5,6,7,8,9,1,2,3] # key = 9
+d = [7,8,9,1,2,3,4,5,6] # key = 10
+
+Output:
+Key found at: 9
+Key found at: 2
+Key found at: 6
+key not found

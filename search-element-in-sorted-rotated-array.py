@@ -29,4 +29,4 @@ d = [7,8,9,1,2,3,4,5,6] # key = 9
 searchKey(a, 0, len(a)-1, 9)
 searchKey(b, 0, len(b)-1, 7)
 searchKey(c, 0, len(c)-1, 9)
-searchKey(d, 0, len(d)-1, 9)
+searchKey(d, 0, len(d)-1, 10)
