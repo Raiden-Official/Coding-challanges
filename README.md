@@ -1,4 +1,4 @@
-# Set of coding problems/challanges and solutions
+# Set of coding problems/challenges and solutions
 ## 1. Divisible Palindromes : Project Euler
 The numbers 545, 5995 and 15151 are the three smallest palindromes divisible by 109. There are nine palindromes less than 100000 which are divisible by 109.
 
